@@ -30,7 +30,7 @@ a:active {
 }
 
 a:visited {
-    color: var(--main-blue);
+    color: hsl(266, 100%, 69%);
 }
 
 button:hover {
@@ -40,11 +40,13 @@ button:hover {
 }
 
 button:focus {
-    color: var(--main-blue);
+    background-color: var(--main-blue);
+        color: #FFF;
 }
 
 button:active {
-    color: var(--main-blue);
+    background-color: var(--main-blue);
+        color: #FFF;
 }
 
 button:visited {
