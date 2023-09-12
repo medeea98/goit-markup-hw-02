@@ -50,7 +50,7 @@ button:active {
 }
 
 button:visited {
-    color: var(--main-blue);
+    color:hsl(266, 100%, 69%) ;
 }
 
 ul {
